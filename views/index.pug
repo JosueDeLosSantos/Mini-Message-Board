@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p(class='main-title') #{title}'s list
+  - var values = messages
+    ul(class='main-ul')
+      each val in values 
+        ul(class='child-ul') 
+          li= val.text
+          li= val.user
+          li= val.added
+    a(href="http://localhost:3000/new")="Add new message"

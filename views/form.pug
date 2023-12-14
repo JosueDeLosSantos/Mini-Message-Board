@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= "New message form"
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+        h1= "Add new message"
+        form(method='POST', action='/new')
+            label="user"
+            input(type='text', name='user', for='for')
+            br
+            label='text'
+            input(type='text', name='text', for='text')
+            button(type="submit")="submit"
+        a(href="http://localhost:3000/")="See Message Board"

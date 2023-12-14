@@ -1,0 +1,50 @@
+body {
+	padding: 50px;
+	font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+	padding-left: auto;
+	padding-right: auto;
+	text-align: center;
+}
+
+.main-title {
+	margin-bottom: 40px;
+}
+
+.main-ul {
+	width: 50%;
+	margin: 10px auto 30px auto;
+}
+
+.child-ul {
+	margin: 10px auto 30px auto;
+	background-color: rgb(180, 180, 180);
+	padding: 0.5rem;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #00b7ff;
+}
+
+form {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+label {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+button {
+	width: 100px;
+	margin: 20px auto 0px auto;
+}
