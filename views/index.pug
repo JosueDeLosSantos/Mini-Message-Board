@@ -2,7 +2,7 @@ extends layout
 
 block content
   h1= title
-  p(class='main-title') #{title}'s list
+  p(class='main-title') #{title}'s list #{url}
   - var values = messages
     ul(class='main-ul')
       each val in values 
@@ -10,4 +10,4 @@ block content
           li= val.text
           li= val.user
           li= val.added
-    a(href='http://localhost:'+ process.env.PORT +'/new')="Add new message"
+    a(href= 'https://minimessageboard.adaptable.app/new')="Add new message"
