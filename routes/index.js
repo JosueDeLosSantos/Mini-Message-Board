@@ -14,8 +14,6 @@ const messages = [
 	},
 ]
 
-const sampleArr = ['1', '2', '3']
-
 /* GET home page. */
 router.get('/', function (req, res, next) {
 	res.render('index', {

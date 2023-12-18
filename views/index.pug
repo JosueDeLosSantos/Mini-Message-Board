@@ -10,4 +10,4 @@ block content
           li= val.text
           li= val.user
           li= val.added
-    a(href="http://localhost:3000/new")="Add new message"
+    a(href='http://localhost:'+ process.env.PORT +'/new')="Add new message"

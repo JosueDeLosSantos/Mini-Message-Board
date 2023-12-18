@@ -13,4 +13,4 @@ html
             label='text'
             input(type='text', name='text', for='text')
             button(type="submit")="submit"
-        a(href="http://localhost:3000/")="See Message Board"
+        a(href='http://localhost:'+ process.env.PORT)="See Message Board"
